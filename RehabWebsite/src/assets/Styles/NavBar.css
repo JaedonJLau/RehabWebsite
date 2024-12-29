@@ -1,0 +1,62 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Space between sections */
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgb(11, 118, 189);
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.Logout{
+  background-color: red;
+}
+
+/* App Logo */
+.navbar-brand h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+/* Navbar Links */
+.navbar-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  margin-right: 30px; /* Space between Home and About */
+}
+
+.navbar-links a,
+.logout-btn a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  width: 100px;
+  text-align: center;
+  padding: 8px 0;
+  border: 2px solid #b0d4f1;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.navbar-links a:hover,
+.logout-btn a:hover {
+  color: #ffffff;
+  background-color: #e40f04;
+  border-color: #0b76bd;
+}
+
+/* Log Out button styling */
+.logout-btn {
+  margin-left: auto; /* Push "Log Out" to the far left */
+}

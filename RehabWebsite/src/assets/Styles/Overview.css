@@ -1,0 +1,61 @@
+/* Layout for the Overview page */
+.layout {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0; /* Remove unnecessary margin */
+}
+
+/* Content section styling */
+.content {
+    flex: 1;
+    padding: 20px;
+    margin-top: 100px; /* Add spacing below the Navbar */
+    margin-left: 250px; /* Adjust based on Sidebar width */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* Title for the Overview Page */
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+/* Overview graphs container */
+.overview-graphs {
+    display: flex;
+    flex-direction: column; /* Arrange graphs in a single column */
+    align-items: center; /* Center-align graphs */
+    gap: 20px; /* Add spacing between graphs */
+    margin-top: 1200px; /* Shift graphs slightly further down */
+}
+
+/* Individual chart container for overview graphs */
+.chart-container {
+    width: 400px; /* Fixed width for the graph */
+    height: 300px; /* Fixed height for the graph */
+    background-color: #f8f9fa;
+    padding: 20px; /* Padding inside the container */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Chart title styling */
+.chart-container h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.2rem; /* Font size for chart titles */
+}
+
+/* Add hover effect for each chart container */
+.chart-container:hover {
+    background-color: #eef4f9; /* Slight color change on hover */
+    transform: scale(1.03); /* Add slight zoom effect */
+    transition: 0.2s ease-in-out;
+}

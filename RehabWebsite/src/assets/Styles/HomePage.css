@@ -1,0 +1,14 @@
+/* Page container for layout */
+.page-container {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Content area */
+.content {
+  margin-left: 250px; /* Same width as the sidebar */
+  padding: 80px 20px; /* Add padding for a clean layout */
+  font-family: Arial, sans-serif;
+  background-color: #ffffff; /* Optional: light background */
+  width: 100%;
+}

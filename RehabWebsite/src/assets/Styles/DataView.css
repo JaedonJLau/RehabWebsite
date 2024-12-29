@@ -1,0 +1,72 @@
+/* Layout for the DataView page */
+.data-view-layout {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px; /* Adjust for Navbar height */
+}
+
+/* Content section styling */
+.data-view-content {
+  flex: 1;
+  padding: 20px;
+  margin-top: 70px; /* Add margin to account for Navbar height */
+  margin-left: 250px; /* Adjust based on Sidebar width */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* Session selection dropdown */
+.data-view-session-select {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px; /* Add extra spacing after margin adjustment */
+}
+
+.data-view-session-select label {
+  font-weight: bold;
+}
+
+.data-view-session-select select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Bar graph container for individual sessions */
+.data-view-bar-chart-container {
+  width: 95%; /* Larger width for bar graphs */
+  background-color: #f8f9fa;
+  padding: 40px; /* More padding for larger charts */
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+}
+
+.data-view-bar-chart-container h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5rem; /* Increase font size for titles */
+}
+
+/* Individual chart container for overview graphs */
+.data-view-chart-container {
+  width: 90%; /* Fixed width for the graph */
+  background-color: #f8f9fa;
+  padding: 30px; /* Padding inside the container */
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.data-view-chart-container h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 1.2rem; /* Font size for chart titles */
+}

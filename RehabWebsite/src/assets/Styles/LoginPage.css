@@ -1,0 +1,93 @@
+/* Reset body and html for full height */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: #ffffff; /* Light gray background */
+    font-family: Arial, sans-serif;
+}
+
+/* Page title styling */
+.pageTitle {
+    font-size: 36px; /* Make the text larger */
+    font-weight: bold; /* Make it bold */
+    text-align: center; /* Center align the text */
+    margin-bottom: 20px; /* Add space below the title */
+    color: #333; /* Dark color for visibility */
+}
+
+/* Wrapper to limit content width */
+.Wrapper {
+    width: 100%;
+    max-width: 700px; /* Larger width for a bigger container */
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* Centered container styling */
+.Container {
+    width: 100%;
+    padding: 40px; /* Increased padding for a spacious look */
+    background-color: #ffffff;
+    border-radius: 12px; /* Larger border radius for softer corners */
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow for emphasis */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Increased spacing between elements */
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Label styling */
+.Container h2 {
+    margin: 0;
+    font-size: 18px; /* Larger font size for headings */
+    color: #333;
+    text-align: left;
+    width: 100%;
+}
+
+/* Input styling */
+.Container input[type="text"], 
+.Container input[type="password"] {
+    width: 100%;
+    padding: 14px; /* More padding for larger inputs */
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Button styling */
+.loginbutt {
+    width: 100%;
+    padding: 14px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px; /* Larger button text */
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.loginbutt:hover {
+    background-color: #45a049;
+}
+
+/* Register text styling */
+.registerText {
+    font-size: 16px; /* Larger text */
+    margin: 0;
+}
+
+.registerLink {
+    color: #4caf50;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bold;
+}

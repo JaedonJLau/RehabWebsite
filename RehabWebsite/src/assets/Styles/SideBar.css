@@ -1,0 +1,59 @@
+/* Sidebar container */
+.sidebar {
+    width: 250px;
+    height: calc(100vh - 60px); /* Full height minus navbar height */
+    background-color: rgb(245, 247, 250); /* Light background */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 64px; /* Same as the height of the navbar */
+    left: 0;
+    z-index: 1000;
+    padding: 20px;
+  }
+  
+  /* Sidebar brand/logo */
+  .sidebar-brand h1 {
+    font-size: 22px;
+    margin: 0 0 20px;
+    color: rgb(11, 118, 189);
+  }
+  
+  /* Sidebar links */
+  .sidebar-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar-links li {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar-links a {
+    text-decoration: none;
+    color: rgb(44, 62, 80);
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .sidebar-links a:hover {
+    color: rgb(11, 118, 189); /* Hover effect */
+  }
+  
+  /* Upgrade button styling */
+  .upgrade-button {
+    background-color: rgb(11, 118, 189);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .upgrade-button:hover {
+    background-color: rgb(8, 90, 140);
+  }
+  
